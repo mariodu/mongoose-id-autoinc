@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-id-autoinc",
+  "description": "Creating of auto increment id fields",
+  "version": "2013.4.14-1",
+  "author": "MarioDu",
+  "dependencies": {
+    "mongoose": ">=3.0.0"
+  },
+  "devDependencies": {
+    "mongoose": ">=3.0.0"
+  },
+  "keywords": [
+    "mongoose",
+    "mongo",
+    "mongodb",
+    "auto-increment",
+    "increment",
+    "field",
+    "_id",
+    "id"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariodu/mongoose-id-autoinc.git"
+  },
+  "main": "./index.js",
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified,you can run 'node examples/example.js'\" && exit 1"
+  },
+  "license": "BSD"
+}
