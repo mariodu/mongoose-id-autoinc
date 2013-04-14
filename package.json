@@ -1,7 +1,7 @@
 {
   "name": "mongoose-id-autoinc",
   "description": "Creating of auto increment id fields",
-  "version": "2013.4.14-1",
+  "version": "2013.4.14-2",
   "author": "MarioDu",
   "dependencies": {
     "mongoose": ">=3.0.0"
@@ -9,6 +9,7 @@
   "devDependencies": {
     "mongoose": ">=3.0.0"
   },
+  "homepage": "http://dujiakun.com",
   "keywords": [
     "mongoose",
     "mongo",
