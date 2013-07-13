@@ -64,7 +64,7 @@ MongoDB的官方文档
 
 4.可选字段
 
-    UserSchema.plugin(autoinc.plugin, { model: 'User'，field： 'seqnumber', start: 100, step: 10 });
+    UserSchema.plugin(autoinc.plugin, { model: 'User', field: 'seqnumber', start: 100, step: 10 });
 
 ---------------------------------------
 
