@@ -49,7 +49,16 @@ MongoDB的官方文档
 2.初始化插件，然后定义你自己的表结构，在和插件关联上
 
     autoinc.init(db);
-    //可以指定counter名称，init(db，countername)
+
+    //可以指定counter名称
+    init(db，countername);
+
+    //可以指定mongoose依赖, 默认 `mongoose = require('mongoose')`
+    init(db, mongoose);
+
+    //或者也可以
+    init(db, countername, mongoose);
+
 
     var UserSchema = new Schema({
       name:   String,
