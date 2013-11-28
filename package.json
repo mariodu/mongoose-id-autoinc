@@ -1,13 +1,11 @@
 {
-  "name": "mongoose-id-autoinc",
+  "name": "mongoose-id-autoinc2",
   "description": "Creating of auto increment id fields",
-  "version": "2013.7.14-4",
-  "author": "MarioDu",
+  "version": "1.0.1",
+  "author": "ijse",
   "dependencies": {
-    "mongoose": ">=3.0.0"
   },
   "devDependencies": {
-    "mongoose": ">=3.0.0"
   },
   "homepage": "http://dujiakun.com",
   "keywords": [
@@ -25,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mariodu/mongoose-id-autoinc.git"
+    "url": "git://github.com/ijse/mongoose-id-autoinc.git"
   },
   "main": "./index.js",
   "readmeFilename": "README.md",
