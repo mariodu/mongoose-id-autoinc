@@ -45,7 +45,7 @@ MongoDB的官方文档
     var mongoose  = require('mongoose'),
     Schema        = mongoose.Schema,
     db            = mongoose.createConnection('127.0.0.1', 'yourDatabaseName'),
-    autoinc       = require('mongoose-id-autoinc');
+    autoinc       = require('mongoose-id-autoinc2');
 
 2.初始化插件，然后定义你自己的表结构，在和插件关联上
 
