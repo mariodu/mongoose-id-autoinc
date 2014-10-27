@@ -31,6 +31,7 @@ MongoDB的官方文档
 - `field` - 自增字段的名，默认为_id
 - `start` - 自增的初始值，默认1
 - `step`  - 自增的步长，默认1
+- `once`  - 是否只在创建时自增，默认为false
 
 
 ## 使用
@@ -44,12 +45,21 @@ MongoDB的官方文档
     var mongoose  = require('mongoose'),
     Schema        = mongoose.Schema,
     db            = mongoose.createConnection('127.0.0.1', 'yourDatabaseName'),
-    autoinc       = require('mongoose-id-autoinc');
+    autoinc       = require('mongoose-id-autoinc2');
 
 2.初始化插件，然后定义你自己的表结构，在和插件关联上
 
     autoinc.init(db);
-    //可以指定counter名称，init(db，countername)
+
+    //可以指定counter名称
+    init(db，countername);
+
+    //可以指定mongoose依赖, 默认 `mongoose = require('mongoose')`
+    init(db, mongoose);
+
+    //或者也可以
+    init(db, countername, mongoose);
+
 
     var UserSchema = new Schema({
       name:   String,
